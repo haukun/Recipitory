@@ -17,17 +17,17 @@
 class SpicyCurry : public Recipi
 {
 	public:
-	var Object 		ブイヨンスープの素;	//	マギーブイヨンスープがおすすめ。
-	var Object		カレーフレーク;		//	適当なカレーフレークでよい。
-	var Object[]	カレースパイス;		//	スーパーのスパイスコーナーにあるものを適当に調達。
-	var Vegetable	たまねぎ;
-	var Vegetable	にんじん;
-	var Vegetable	じゃがいも;
-	var Topping?	福神漬;
+	Object 		ブイヨンスープの素;	//	マギーブイヨンスープがおすすめ。
+	Object		カレーフレーク;		//	適当なカレーフレークでよい。
+	Object[]	カレースパイス;		//	スーパーのスパイスコーナーにあるものを適当に調達。
+	Vegetable	たまねぎ;
+	Vegetable	にんじん;
+	Vegetable	じゃがいも;
+	Topping?	福神漬;
 	
 	private:
-	var Water	 	水[1000];			//	水っぽいのが好きな場合は、+200mlぐらいすると良い。
-	var Object		米;
+	Water	 	水[1000];			//	水っぽいのが好きな場合は、+200mlぐらいすると良い。
+	Object		米;
 
 	//--------------------------------------------------
 	//	調理開始
